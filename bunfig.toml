@@ -1,0 +1,4 @@
+jsx = {
+  factory = "jsx",
+  fragment = "Fragment"
+}
