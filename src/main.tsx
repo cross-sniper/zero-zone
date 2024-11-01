@@ -1,3 +1,5 @@
+import React from "./react-zero"
+
 import App from "./App"
-root = document.getElementById("root")
-root.appendChild(App())
+const root = document.getElementById("root")
+React.render(App, root)
