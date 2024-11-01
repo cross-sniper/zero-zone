@@ -7,7 +7,7 @@ function Counter()
   const [count, setCount] = React.useState(0); // Initial count state
 
   return (
-    <div>
+    <div class="counter">
       <div>Count: {count}</div>
       <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
